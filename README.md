@@ -6,8 +6,10 @@
 # 更改運行類型
 ![image](https://github.com/user-attachments/assets/14203697-f07e-4007-a7f4-07ea07c0d4dd)
 ![image](https://github.com/user-attachments/assets/7b0a744f-e65e-43bd-88a0-16d38138b05a)
+
 驗證一下，輸入如下程式碼運行:
 ![image](https://github.com/user-attachments/assets/67025a67-19b6-464f-a131-4750157dea4f)
+
 出現如下結果則表示是GPU運作：
 ![image](https://github.com/user-attachments/assets/f246714e-6fe5-410a-a3d5-a168ac2a5ea7)
 
