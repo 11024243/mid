@@ -11,7 +11,7 @@
 出現如下結果則表示是GPU運作：
 ![image](https://github.com/user-attachments/assets/f246714e-6fe5-410a-a3d5-a168ac2a5ea7)
 
-安裝Miniconda3
+# 安裝Miniconda3
 這裡提前說一下在Colaboratory的問題：
 
 就是在這個類似命令列的頁面端無法進行conda虛擬環境的創建，只能使用base，而且需要特殊的方式來使用conda。 先使用命令列下載Miniconda3的sh安裝包：
@@ -34,7 +34,7 @@
 ```
 !conda init
 ```
-安装PyTorch
+# 安装PyTorch
 這裡試過進行env的創建，但是創建成功之後無法進行命令列的切換，因此這裡就直接在base上進行了。
 安裝pytorch，這裡去pytorch官網選擇對應的版本進行安裝：
 
@@ -49,7 +49,7 @@
 ![image](https://github.com/user-attachments/assets/0d29f7c0-4acb-4576-a8de-6bb7604fa4d1)
 
 
-驗證pytorch是否能夠使用
+# 驗證pytorch是否能夠使用
 首先直接編寫程式碼進行驗證能否直接使用自己安裝的conda python:
 ```
 import torch  
@@ -65,7 +65,7 @@ print(torch.version)
 ![image](https://github.com/user-attachments/assets/083d141c-3929-4e1b-a1c4-d454163bbfbb)
 
 
-安装cpython等需求包
+# 安装cpython等需求包
 ```
 !https://gitee.com/zyp521/upload_image/raw/master/cGUR6D.png
 ```
