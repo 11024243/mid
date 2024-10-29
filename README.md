@@ -16,7 +16,7 @@
 
 就是在這個類似命令列的頁面端無法進行conda虛擬環境的創建，只能使用base，而且需要特殊的方式來使用conda。 先使用命令列下載Miniconda3的sh安裝包：
 
-!wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+"!wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
 安裝權限配置：
 
 !chmod +x Miniconda3-latest-Linux-x86_64.sh
