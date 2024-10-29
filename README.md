@@ -8,10 +8,14 @@
 ![image](https://github.com/user-attachments/assets/7b0a744f-e65e-43bd-88a0-16d38138b05a)
 
 驗證一下，輸入如下程式碼運行:
-![image](https://github.com/user-attachments/assets/67025a67-19b6-464f-a131-4750157dea4f)
-
+```
+import tensorflow as tf  
+tf.test.gpu_device_name()
+```
 出現如下結果則表示是GPU運作：
-![image](https://github.com/user-attachments/assets/f246714e-6fe5-410a-a3d5-a168ac2a5ea7)
+
+![5](https://github.com/user-attachments/assets/b4bd1d81-3744-4e25-97bc-12cedeb47ab9)
+
 
 # 安裝Miniconda3
 這裡提前說一下在Colaboratory的問題：
@@ -64,7 +68,9 @@ print(torch.version)
 !cd mmcv  
 !pip install -U openmim
 ```
-![image](https://github.com/user-attachments/assets/083d141c-3929-4e1b-a1c4-d454163bbfbb)
+![8](https://github.com/user-attachments/assets/8f41a81a-869b-4c1b-85c7-5035c32303bc)
+
+
 
 
 # 安装cpython等需求包
@@ -80,12 +86,11 @@ print(torch.version)
 !pip install "git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI"  
 !pip install -v -e . # or "python setup.py develop"
 ```
-我們使用:
 ```
-!cp /content/mmcv/mmcv/version.py /content/mmcv
 !python /content/mmcv/setup.py install
 ```
-![image](https://github.com/user-attachments/assets/b3ad49c8-5504-4f53-8c93-c98ba2023c2d)
+![9](https://github.com/user-attachments/assets/dd06ed21-13af-4f65-b669-4ed5612bf01a)
+
 
 
 到此，我們就完成了mmdetection及其依賴函式庫的安裝。
