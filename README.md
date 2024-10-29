@@ -33,12 +33,14 @@
 這裡試過進行env的創建，但是創建成功之後無法進行命令列的切換，因此這裡就直接在base上進行了。
 安裝pytorch，這裡去pytorch官網選擇對應的版本進行安裝：
 
-![image](https://github.com/qzhao0805/mid/blob/main/8.png)  
+![image](https://github.com/user-attachments/assets/9f0f6316-59e2-4f5d-994c-b444a51d4400)
+
 !conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 使用指令查看conda env：
 
 !conda info --env
-image
+![image](https://github.com/user-attachments/assets/0d29f7c0-4acb-4576-a8de-6bb7604fa4d1)
+
 
 驗證pytorch是否能夠使用
 首先直接編寫程式碼進行驗證能否直接使用自己安裝的conda python:
@@ -52,7 +54,8 @@ print(torch.version)
 !cd mmcv  
 !pip install -U openmim
 !mim install mmcv
-image image
+![image](https://github.com/user-attachments/assets/083d141c-3929-4e1b-a1c4-d454163bbfbb)
+
 
 安装cpython等需求包
 
@@ -69,7 +72,8 @@ image image
 
 !cp /content/mmcv/mmcv/version.py /content/mmcv
 !python /content/mmcv/setup.py install
-image
+![image](https://github.com/user-attachments/assets/b3ad49c8-5504-4f53-8c93-c98ba2023c2d)
+
 
 到此，我們就完成了mmdetection及其依賴函式庫的安裝。
 有一個比較大的缺陷需要聲明一下，就是如果你超過12小時不登入Colaboratory的話，google會自動將你的伺服器重置分配給別人，你的資料和程式碼都被自動清楚了。
